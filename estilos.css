@@ -1,0 +1,20 @@
+.flex-container{
+    display: flex;
+    background-color: peru;
+    border: .2em solid black;
+    flex-flow: row wrap;
+    align-content: space-between;
+    justify-content: space-between;
+}
+.flex-item {
+    background-color: olive;
+    border: .2em solid black;
+    margin: 1%;
+    width: 7%;
+    text-align: center;
+    line-height: 75px;
+}
+.vacio{
+    background-color: peru;
+    border: 0px;
+}
